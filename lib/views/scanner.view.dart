@@ -159,7 +159,7 @@ class _ScannerViewState extends State<ScannerView> {
                                 child: AspectRatio(
                                   // aspectRatio: 9 / 16,
                                   aspectRatio:
-                                      1 / _cameraController.value.aspectRatio,
+                                      1.2 / _cameraController.value.aspectRatio,
                                   child: Stack(
                                     fit: StackFit.expand,
                                     children: [
